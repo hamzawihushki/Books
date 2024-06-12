@@ -1,7 +1,7 @@
 const searchBtn = document.getElementById("search-button"),
   searchClose = document.getElementById("search-close"),
   searchContent = document.getElementById("search-content");
-
+  console.log("hamza")
 if (searchBtn) {
   searchBtn.addEventListener("click", () => {
     searchContent.classList.add("show-search");
